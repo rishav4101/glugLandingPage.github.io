@@ -1,0 +1,78 @@
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>GLUG</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="static/nav.css" />
+	<style>
+		body { height:100%; margin: 0; overflow: hidden; background-image: radial-gradient(circle,  #0f0f0f, #000000 );}
+		a{ color: #fff; }
+
+    body {
+  font-family: Arial,Helvetica;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin:0;
+}
+canvas {
+  position: fixed;
+  top:0;
+  
+}
+.text-box {
+  position:absolute;
+  text-align: center;
+  width:100%;
+  top:45%;
+
+  display:block;
+  
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 7px;
+  word-spacing: 12px;
+  text-transform: uppercase;
+  color:#000000;
+  
+  z-index: 10;
+}
+
+
+		
+	</style>
+
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+
+  <div class="text-box">
+      <div>EVENTS</div>
+      
+    </div>
+    
+  <div id="menu">
+    <div class="holder">
+  <ul><li> G </li><li> L </li><li> U </li><li> G </li></ul>
+  </div>
+<div class="content">
+  <ul>
+    <li><a href="blog.html">blog</a></li>
+  <li><a href="about.html">about us</a></li>
+  <li><a href="contact.html">contact us</a></li>
+  <li><a href="index.html">restart tour</a></li>
+</ul>
+  </div>
+</div> 
+ 
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/three.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/OrbitControls2.js"></script>
+	<script src="js/inflate.min.js"></script>
+	<script src="js/FBXLoaderevents.js"></script>
+
+	<script src="js/events.js"></script>
+</body>
+</html>

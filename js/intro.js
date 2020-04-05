@@ -354,17 +354,17 @@ THREE.ShapeUtils.triangulateShape = (function() {
 
     // desktop
     var mouseDown = false;
-    document.body.style.cursor = 'pointer';
+    
 
     window.addEventListener('mousedown', function(e) {
       mouseDown = true;
-      document.body.style.cursor = 'ew-resize';
+      
       _cx = e.clientX;
       stop();
     });
     window.addEventListener('mouseup', function(e) {
       mouseDown = false;
-      document.body.style.cursor = 'pointer';
+      
       resume();
     });
     window.addEventListener('mousemove', function(e) {

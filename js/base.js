@@ -26,7 +26,7 @@ var camera, controls, scene, renderer;
 					controls.enableDamping = true; 
 					controls.dampingFactor = 0.05;
 					controls.screenSpacePanning = false;
-					controls.minDistance = 160;
+					controls.minDistance = 170;
 					controls.maxDistance = 170;
 					controls.maxPolarAngle = 1.294;
 					controls.minPolarAngle = 1.107;
